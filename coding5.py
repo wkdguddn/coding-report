@@ -11,12 +11,14 @@ while True:
 
     elif it !="" and it not in items:
         print(it,"는 미등록 제품입니다.")
+        it=input("제품명:")
         continue
+
 
     elif it=="":
         break
 
-print("총금액:")
+print("총금액:",s)
     
 
 
